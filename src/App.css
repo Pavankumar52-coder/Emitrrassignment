@@ -1,0 +1,61 @@
+html, body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+  padding: 12px 0 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #04ebfc;
+  width: 250px; /* Adjust the width as needed */
+  height: max-content; /* Adjust the height as needed */
+  border: 2px solid black;
+  border-radius: 10px; /* Add some curvature to the edges */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.styledButton {
+  background-color: #03f80b; /* Green */
+  font-size: 12px;
+  border:#a5d6f2;
+  color: rgb(27, 33, 22);
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor:grab;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #91f1f8;
+  height: 100vh;
+}
+
+.win-div img{
+  width: 20px; /* Ensure the image fills the container */
+  height: 10px;
+}
+.win-div{
+  background-color: rgb(45, 2, 57);
+  color: rgb(241, 3, 3);
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
